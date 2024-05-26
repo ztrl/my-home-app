@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <header>신문영의 홈페이지</header>
+      <header>신문영의 홈페이지 !</header>
       <nav>여긴 네비게이션 바</nav>
       <section>여기가 컨테이너</section>
       <article>여기가 컨텐츠</article>
