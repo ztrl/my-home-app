@@ -15,7 +15,13 @@ function App() {
           <div className="text-5xl font-bold">신문영 (1997.01.29, 男)</div>
           <div className="text-3xl mt-10">Backend Developer</div>
           <div className="text-end text-lg mt-28">Email: ztrl@naver.com</div>
-          <div className="text-end text-lg mt-5">phone: 010-9280-8634</div>
+          <div className="text-end text-lg mt-5">Phone: +8210-9280-8634</div>
+          <div className="text-end text-lg mt-5">
+            Github:{" "}
+            <a className="text-white" href="https://github.com/ztrl">
+              https://github.com/ztrl
+            </a>
+          </div>
         </div>
       </header>
       {/* <nav>여긴 네비게이션 바</nav> */}
