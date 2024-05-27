@@ -1,4 +1,7 @@
 import "./App.css";
+import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
+import CallOutlinedIcon from "@mui/icons-material/CallOutlined";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 function App() {
   return (
@@ -14,12 +17,15 @@ function App() {
         <div className="w-full text-start text-white bg-gray-700 p-10">
           <div className="text-5xl font-bold">신문영 (1997.01.29, 男)</div>
           <div className="text-3xl mt-10">Backend Developer</div>
-          <div className="text-end text-lg mt-28">Email: ztrl@naver.com</div>
-          <div className="text-end text-lg mt-5">Phone: +8210-9280-8634</div>
-          <div className="text-end text-lg mt-5">
-            Github:{" "}
+          <div className="text-start text-lg mt-16">
+            <EmailOutlinedIcon /> ztrl@naver.com
+          </div>
+          <div className="text-start text-lg mt-5">
+            <CallOutlinedIcon /> 010-9280-8634
+          </div>
+          <div className="text-start text-lg mt-5">
             <a className="text-white" href="https://github.com/ztrl">
-              https://github.com/ztrl
+              <GitHubIcon /> https://github.com/ztrl
             </a>
           </div>
         </div>
@@ -123,16 +129,12 @@ function App() {
               <article className="py-5">
                 <header className="text-2xl pb-3">Javascript</header>
                 <p>
-                  - Enjoytrip 프로젝트와 Petcong 프로젝트를 하면서 Javascript를
-                  써본 경험이 있습니다.
+                  - Findear 프로젝트를 하면서 Javascript를 써본 경험이 있습니다.
                 </p>
               </article>
               <article className="py-5">
                 <header className="text-2xl pb-3">React</header>
-                <p>
-                  - Enjoytrip 프로젝트와 Petcong 프로젝트를 하면서 React를 써본
-                  경험이 있습니다.
-                </p>
+                <p>- Findear 프로젝트를 하면서 React를 써본 경험이 있습니다.</p>
               </article>
             </section>
             <section className="p-7">
