@@ -5,6 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import SkillBreadcrumbs from "./components/SkillBreadcrumbs";
 import { useState } from "react";
 import SkillContents from "./components/SkillContents";
+import ProjectHolder from "./components/ProjectHolder";
 
 function App() {
   const [activeContent, setActiveContent] = useState<string>("BACKEND");
@@ -103,6 +104,7 @@ function App() {
               <header className="p-7 font-bold">PROJECT (WIP)</header>
               <hr />
               <section className="p-7">
+                <ProjectHolder></ProjectHolder>
                 <article className="flex flex-col py-10">
                   <img
                     className="w-[400px] h-[200px] self-center"
