@@ -19,7 +19,7 @@ const SkillBreadcrumbs = ({ onclick, headers, currentContent }: HeaderProp) => {
               key={index}
               color={currentContent === header ? "black" : "gray"}
               onClick={() => onclick(header)}
-              sx={{ fontSize: 20 }}
+              sx={{ fontSize: 20, cursor: "pointer" }}
             >
               {index === 0 ? (
                 <BuildIcon fontSize="inherit" sx={{ mr: 1 }} />
@@ -28,7 +28,7 @@ const SkillBreadcrumbs = ({ onclick, headers, currentContent }: HeaderProp) => {
               ) : (
                 <HandymanIcon fontSize="inherit" sx={{ mr: 1 }} />
               )}
-              {header}
+              <span>{header}</span>
             </Typography>
           );
         })}
