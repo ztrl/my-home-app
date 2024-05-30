@@ -19,21 +19,30 @@ const ProjectHolder = () => {
             aria-label="projectIcon"
           />
         }
-        title="반려동물 실시간 랜덤 소개팅 모바일 어플리케이션"
+        title="Petcong, 반려동물 실시간 랜덤 소개팅 모바일 어플리케이션"
         subheader="2024.01.03 ~ 2024.02.16 (7 weeks)"
       />
-      <CardMedia component="img" image="" alt="petcong_thumbnail" />
+      <CardMedia
+        component="img"
+        image="/images/petcong_thumbnail.png"
+        alt="petcong_thumbnail"
+      />
       <CardContent>
-        <Typography>
-          반려동물 실시간 랜덤 소개팅 모바일 어플리케이션, 펫콩입니다. 늘어나는
-          반려동물 가구와 1인 가구를 보면서 반려동물이라는 주제로 공감대를
-          형성할 수 있는 사람들을 대상으로 만남의 장을 제공하는 어플리케이션을
-          만들었습니다.
+        <Typography sx={{ py: 2 }}>
+          반려동물 실시간 랜덤 소개팅 모바일 어플리케이션, 펫콩입니다.
+        </Typography>
+        <Typography sx={{ py: 2 }}>
+          늘어나는 반려동물 가구와 1인 가구를 보면서 반려동물이라는 주제로
+          공감대를 형성할 수 있는 사람들을 대상으로 만남의 장을 제공하는
+          어플리케이션을 만들었습니다.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <GitHubIcon href="https://github.com/ztrl/petcong" />
+        <IconButton
+          aria-label="link to petcong github repository"
+          href="https://github.com/ztrl/petcong"
+        >
+          <GitHubIcon fontSize="large" />
         </IconButton>
       </CardActions>
     </Card>
