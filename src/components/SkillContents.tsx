@@ -79,18 +79,16 @@ const SkillContents = ({ activeContent }: ContentProps) => {
   return (
     <>
       {contents[activeContent].map((skill, skillIndex) => (
-        <>
-          <div key={skillIndex} className="mt-3">
-            <header className="text-lg font-semibold p-3">{skill.name}</header>
-            <div className="p-3">
-              {skill.description.map((description, descriptionIndex) => (
-                <p key={descriptionIndex} className="p-3">
-                  {description}
-                </p>
-              ))}
-            </div>
+        <div key={skillIndex} className="mt-3">
+          <header className="text-lg font-semibold p-3">{skill.name}</header>
+          <div className="mt-3">
+            {skill.description.map((description, descriptionIndex) => (
+              <p key={descriptionIndex} className="p-3">
+                {description}
+              </p>
+            ))}
           </div>
-        </>
+        </div>
       ))}
     </>
   );

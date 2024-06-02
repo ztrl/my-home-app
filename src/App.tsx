@@ -52,7 +52,7 @@ function App() {
               <hr />
               <p className="px-7 pt-7">
                 안녕하십니까, 하나에 몰입해서 깊게 파고드는 것을 좋아하는
-                <text className="font-bold"> 딥 다이버</text> 신문영입니다.
+                <span className="font-bold"> 딥 다이버</span> 신문영입니다.
               </p>
               <p className="px-7 pt-2">
                 전 대부분의 상황에서 객체지향적으로 코드를 작성하려고 합니다.
@@ -104,7 +104,7 @@ function App() {
               <header className="p-7 font-bold">PROJECT (WIP)</header>
               <hr />
               <section className="p-7">
-                <ProjectHolder></ProjectHolder>
+                <ProjectHolder />
               </section>
             </article>
           </section>
