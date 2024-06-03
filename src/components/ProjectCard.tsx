@@ -98,9 +98,12 @@ const ProjectCard = ({
         />
         <CardContent>
           <Typography sx={{ py: 2 }}>{summary}</Typography>
-          <Typography sx={{ py: 2 }}>{contribution}</Typography>
-          <Typography sx={{ py: 2 }}>{achivement}</Typography>
-          <Typography sx={{ py: 2 }}>{retrospection}</Typography>
+          <Typography sx={{ py: 2 }}>기여도</Typography>
+          <Typography sx={{ pb: 2 }}>{contribution}</Typography>
+          <Typography sx={{ py: 2 }}>달성</Typography>
+          <Typography sx={{ pb: 2 }}>{achivement}</Typography>
+          <Typography sx={{ py: 2 }}>회고</Typography>
+          <Typography sx={{ pb: 2 }}>{retrospection}</Typography>
         </CardContent>
         <CardActions disableSpacing>
           <IconButton
