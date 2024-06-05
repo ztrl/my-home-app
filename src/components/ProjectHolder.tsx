@@ -41,7 +41,7 @@ const ProjectHolder = () => {
             없이 대기열 기능을 사용할 수 있습니다."
         contribution="백엔드 25%"
         achivement="Jmeter를 활용한 테스트 계획 수립 및 수행, Http client 모듈 작성"
-        retrospection="Http client 모듈을 완전하게 만들 지 못해서 아쉽다. 처음에는 간단한 Http client만 만들려고 했으나 부가 기능을 넣는다고 추가하려다 보니 목표를 잃어버리고 시간 관리를 못하게 되었다. 이 점을 보완해야 할 필요가 있다."
+        retrospection="Http client 모듈을 완전하게 만들 지 못해서 아쉽다. 처음에는 간단한 Http client만 만들려고 했으나 부가 기능을 넣는다고 추가하려다 보니 목표를 잃어버리고 시간 관리를 못하게 되었다. Https 지원을 위해 계속 개발을 하고, 추후에 이런 일이 재발하지 않도록 작업이 완성되었다고 간주할 수 있는 기준을 세워서 개발을 진행하겠다."
         githubLink="https://github.com/4-EVERY1/QQueueing"
         skillList={["BACKEND"]}
       />
