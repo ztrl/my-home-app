@@ -77,13 +77,10 @@ function App() {
               <hr />
               <section className="p-7">
                 <header className="text-2xl font-semibold">SSAFY</header>
-                <p className="text-xs pt-1">2023.07 - Present, 멀티캠퍼스</p>
+                <p className="text-xs pt-1">2023.07 - 2024.07, 멀티캠퍼스</p>
               </section>
               <section className="px-7">
-                <div>
-                  현재 삼성청년SW아카데미 10기를 다니고 있으며 2024년 7월에
-                  수료할 예정입니다.
-                </div>
+                <div>삼성청년SW아카데미 10기를 수료하였습니다.</div>
                 <div className="pt-5">
                   SSAFY에서 알고리즘과 Java, Spring, MySQL, Javascript, Vue.js를
                   배웠습니다.
