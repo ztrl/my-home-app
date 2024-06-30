@@ -8,11 +8,9 @@ assignees: ztrl
 ---
 
 ## Summary
-_describe a short sentence which can represent a job properly._
+_Describe a short sentence which can represent a job properly._
 
 ### Due date
-_describe date when the job should be completed[^1]._
-
-
+_Describe date when the job should be completed[^1]._
 
 [^1]: ex)1997.01.29, Tue
